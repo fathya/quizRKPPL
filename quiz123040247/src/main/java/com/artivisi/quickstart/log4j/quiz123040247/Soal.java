@@ -10,7 +10,7 @@ public class Soal {
        int n=1;
        while(n<=pangkat){
            n++;
-           hasil*=bil;
+           hasil = hasil * bil;
      }      
        return hasil;
    }
